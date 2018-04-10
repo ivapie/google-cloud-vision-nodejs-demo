@@ -7,6 +7,7 @@ Try the Google Cloud Vision API (This project will be embedded in "World vision 
 * Make sure you has NodeJS and npm installed;
 * Clone this repo: `git clone https://github.com/radi-cho/google-cloud-vision-nodejs-demo.git`;
 * Run `npm install` or `yarn` & make sure all needed packages are installed;
+* Set your Google Cloud credentials as global variable - [guide here](https://cloud.google.com/vision/docs/libraries);
 * Run on of the following scripts: `label-detection`, `text-detection`, `web-detection`;
 
 ```
