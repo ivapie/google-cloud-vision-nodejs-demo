@@ -1,0 +1,33 @@
+{
+  "name": "google-cloud-vision-nodejs",
+  "version": "1.0.0",
+  "description": "Google cloud vision NodeJS API demo",
+  "main": "index.js",
+  "scripts": {
+    "label-detection": "node ./src/label.js",
+    "web-detection": "node ./src/web.js",
+    "text-detection": "node ./src/text.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radi-cho/google-cloud-vision-nodejs.git"
+  },
+  "keywords": [
+    "Google",
+    "Cloud",
+    "Cloud",
+    "Vision",
+    "API",
+    "image",
+    "recognition"
+  ],
+  "author": "Radi Cho",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/radi-cho/google-cloud-vision-nodejs/issues"
+  },
+  "homepage": "https://github.com/radi-cho/google-cloud-vision-nodejs#readme",
+  "dependencies": {
+    "@google-cloud/vision": "^0.19.0"
+  }
+}
